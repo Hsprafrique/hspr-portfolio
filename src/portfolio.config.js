@@ -25,7 +25,7 @@ export const projects = [
   { name: '9jaTax',      domain: '9jatax.app',       description: 'Bookkeeping & tax platform built for Nigerian businesses.', url: 'https://www.9jatax.app',    status: 'live' },
   { name: 'Campus Market',domain: 'campusmarket.cc',  description: 'Marketplace built for students.',                           url: 'https://campusmarket.cc',   status: 'live' },
   { name: 'HP Autos',     domain: 'hpautos.cc',       description: 'Automobile marketplace across Africa.',                    url: 'https://hpautos.cc',        status: 'live' },
-  { name: 'Event Masters',   domain: 'eventmasters.live',    description: 'Events & Ticketing Platform.',                                url: 'https://evenmasters.live',     status: 'live' },
+  { name: 'Event Masters',   domain: 'eventmasters.live',    description: 'Events & Ticketing Platform.',                                url: 'https://eventmasters.live',     status: 'live' },
   { name: 'Hpxchange', domain: '',                 description: 'Digital Exchange Platform.',                          url: '#',                          status: 'building' },
   { name: 'Pulse Logix', domain: '',                 description: 'Logistics & delivery platform.',                          url: '#',                          status: 'building' },
   { name: 'Pengstays',   domain: '',                 description: 'Real estate & short-let bookings.',                       url: '#',                          status: 'building' },
