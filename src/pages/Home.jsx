@@ -11,7 +11,7 @@ const ME = {
   quote: 'There is a developer in Nigeria right now — coding by generator light, buying data 1GB at a time. Still opening their laptop tomorrow morning. That is not desperation. That is the most elite form of discipline on earth.',
   twitter:   'https://twitter.com/Hsprafrique',
   youtube:   'https://youtube.com/@hsprafrique',
-  instagram: 'https://instagram.com/Hsprafrique',
+  tiktok:    'https://www.tiktok.com/@hsprafrique?_r=1&_t=ZP-99SKCmaNIgZ',
 };
 
 const PHOTOS_A = ['/photos/sam-desk.jpeg', '/photos/sam-mic.jpeg'];
@@ -145,7 +145,7 @@ export default function Home() {
           </div>
           <div className="nav-clock">
             <Dot color="#32D74B" size={6} />
-            NG · {clock}
+            WAT · {clock}
           </div>
         </div>
       </nav>
@@ -172,7 +172,7 @@ export default function Home() {
               <div className="hero-socials" style={{ animation: 'fadeUp 0.6s ease 0.4s both' }}>
                 <a href={ME.twitter}   target="_blank" rel="noopener noreferrer">Twitter</a>
                 <a href={ME.youtube}   target="_blank" rel="noopener noreferrer">YouTube</a>
-                <a href={ME.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href={ME.tiktok}    target="_blank" rel="noopener noreferrer">Tiktok</a>
                 <a href={`mailto:${ME.email}`}>Email</a>
               </div>
             </div>
@@ -393,7 +393,7 @@ export default function Home() {
             <div className="footer-links">
               <a href={ME.twitter}   target="_blank" rel="noopener noreferrer">Twitter</a>
               <a href={ME.youtube}   target="_blank" rel="noopener noreferrer">YouTube</a>
-              <a href={ME.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href={ME.tiktok}    target="_blank" rel="noopener noreferrer">Tiktok</a>
               <a href={`mailto:${ME.email}`}>Email</a>
             </div>
             <div className="footer-status">
