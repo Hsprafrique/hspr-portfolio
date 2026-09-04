@@ -5,7 +5,7 @@ import '../index.css';
 // ─── Data ───────────────────────────────────────────────────────────────────
 const ME = {
   name: 'Sam Ivere',
-  bio: 'Curious guy building cool stuff. I build transcending mobile apps, stunning websites, and production SaaS for African communities.',
+  bio: 'Curious guy building cool stuffs. I build Transcending Mobile Apps, Stunning Websites, and Production SaaS for African Communities.',
   company: 'HSPR Technologies',
   email: 'samuelivere92@gmail.com',
   quote: 'There is a developer in Nigeria right now — coding by generator light, buying data 1GB at a time. Still opening their laptop tomorrow morning. That is not desperation. That is the most elite form of discipline on earth.',
@@ -233,7 +233,7 @@ export default function Home() {
                   }}>
                     <div style={{ fontSize: 13, fontWeight: 600, color: '#F2F2F7' }}>Sam Ivere</div>
                     <div style={{ fontFamily: 'var(--mono)', fontSize: 10, color: '#30D5C8', marginTop: 3 }}>
-                      Founder · HSPR Technologies · 🇳🇬
+                      Founder · HSPR Technologies ·
                     </div>
                   </div>
                 </div>
@@ -283,7 +283,7 @@ export default function Home() {
             <div className="section-label">PRODUCTION FLEET</div>
             <div className="section-intro">
               <h2>Things I've built / building</h2>
-              <p>Every product is live, maintained, and built for African users — from bookkeeping to car marketplaces, digital exchange and Ticket Reselling.</p>
+              <p>Every product is live, maintained, and built for African users — from Bookkeeping to Car Marketplaces, Real Estate, Digital Exchange & Ticket Reselling.</p>
             </div>
           </Reveal>
           <div className="products-grid">
@@ -329,7 +329,7 @@ export default function Home() {
                   HSPR Technologies is a Nigerian tech company building SaaS products and marketplaces for African communities. Every product is built to work on slow networks, priced in Naira, and designed for how African businesses actually operate.
                 </p>
                 <p style={{ fontSize: 14, color: 'var(--dim)', lineHeight: 1.72 }}>
-                  From bookkeeping for Lagos SMEs to car marketplaces spanning the continent — HSPR ships real production softwares, not prototypes.
+                  From bookkeeping for Lagos SMEs to car marketplaces and real estate spanning the continent — HSPR ships real production softwares, not prototypes.
                 </p>
                 <div className="stats-grid">
                   {[{ n: `${liveCount}`, l: 'Live products' }, { n: '9+', l: 'Apps shipped' }, { n: '2026', l: 'Incorporated' }, { n: 'NG', l: 'Nigeria' }].map(({ n, l }) => (
